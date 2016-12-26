@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/activity_menu"
+    tools:context="com.lab31.admin.Lab3_1.Menu">
+
+    <RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="0dp"
+    android:layout_weight="0.125"></RelativeLayout>
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="0.75">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true">
+
+    <RelativeLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.1"/>
+
+
+    <RelativeLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.2">
+
+    <Button
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/button1" android:onClick="onClick1"
+        android:text="Activity 2"/>
+
+</RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.2">
+
+    <Button
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/button2" android:onClick="onClick2"
+        android:text="Activity 3"/>
+
+</RelativeLayout>
+
+
+    <RelativeLayout
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="0.2">
+
+    <Button
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/button3" android:onClick="onClick3"
+        android:text="Activity 4"/>
+
+</RelativeLayout>
+
+
+    <RelativeLayout
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="0.2">
+
+    <Button android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/button4"
+        android:onClick="onClick4"
+        android:text="Exit"/>
+
+</RelativeLayout>
+
+    <RelativeLayout android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.1"/>
+
+</LinearLayout>
+
+</RelativeLayout>
+
+    <RelativeLayout android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="0.125"> </RelativeLayout>
+
+</LinearLayout>
+
